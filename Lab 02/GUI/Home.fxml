@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="29.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Desktop/thuc%20hanh/icon.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="399.0" layoutY="46.0" prefHeight="55.0" prefWidth="484.0" />
+      <ToggleButton layoutX="902.0" layoutY="46.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="150.0" text="Search" />
+      <Pane layoutX="175.0" layoutY="173.0" prefHeight="255.0" prefWidth="330.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/thuc%20hanh/sach1.jpg" />
+               </image>
+            </ImageView>
+            <VBox layoutX="206.0" layoutY="25.0" prefHeight="200.0" prefWidth="113.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="94.0" text="Price     24">
+                     <VBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="21.0" prefWidth="94.0" text="Avail     69">
+                     <VBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <SplitMenuButton mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="1">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                    </items>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </SplitMenuButton>
+               </children>
+            </VBox>
+            <Label layoutX="240.0" prefHeight="21.0" prefWidth="66.0" text="Book 1">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="745.0" layoutY="178.0" prefHeight="255.0" prefWidth="330.0">
+         <children>
+            <ImageView fitHeight="185.0" fitWidth="173.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/thuc%20hanh/sach3.jpg" />
+               </image>
+            </ImageView>
+            <VBox layoutX="206.0" layoutY="25.0" prefHeight="200.0" prefWidth="113.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="94.0" text="Price     36">
+                     <VBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="21.0" prefWidth="94.0" text="Avail     69">
+                     <VBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <SplitMenuButton mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="1">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Action 2" />
+                     </items>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </SplitMenuButton>
+               </children>
+            </VBox>
+            <Label layoutX="240.0" prefHeight="21.0" prefWidth="66.0" text="Book 2">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="174.0" layoutY="419.0" prefHeight="255.0" prefWidth="330.0">
+         <children>
+            <ImageView fitHeight="130.0" fitWidth="150.0" layoutX="18.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/thuc%20hanh/dvd1.jpg" />
+               </image>
+            </ImageView>
+            <VBox layoutX="206.0" layoutY="25.0" prefHeight="200.0" prefWidth="113.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="94.0" text="Price     24">
+                     <VBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="21.0" prefWidth="94.0" text="Avail     73">
+                     <VBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <SplitMenuButton mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="1">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Action 2" />
+                     </items>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </SplitMenuButton>
+               </children>
+            </VBox>
+            <Label layoutX="240.0" prefHeight="21.0" prefWidth="66.0" text="DVD 1">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="792.0" layoutY="414.0" prefHeight="255.0" prefWidth="330.0">
+         <children>
+            <ImageView fitHeight="167.0" fitWidth="173.0" layoutX="-33.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/thuc%20hanh/images.jpg" />
+               </image>
+            </ImageView>
+            <VBox layoutX="174.0" layoutY="33.0" prefHeight="200.0" prefWidth="113.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="94.0" text="Price     36">
+                     <VBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="21.0" prefWidth="94.0" text="Avail     69">
+                     <VBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <SplitMenuButton mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="1">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Action 2" />
+                     </items>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </SplitMenuButton>
+               </children>
+            </VBox>
+            <Label layoutX="206.0" layoutY="-1.0" prefHeight="21.0" prefWidth="66.0" text="Book 3">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="1201.0" layoutY="30.0" prefHeight="70.0" prefWidth="85.0">
+         <children>
+            <ImageView fitHeight="85.0" fitWidth="122.0" layoutX="-28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/thuc%20hanh/cart.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="1186.0" layoutY="15.0" text="0 media" />
+      <Label layoutX="107.0" layoutY="55.0" prefHeight="21.0" prefWidth="74.0" text="AIMS" textFill="#1f48ff">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
